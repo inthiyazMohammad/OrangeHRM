@@ -32,7 +32,7 @@ public class ForgetPassword_Page_Test extends BaseClass {
 	public void TearDown() throws InterruptedException {
 		
 		Thread.sleep(3000);
-		Log.info("Browser closing");
+		Log.info("Browser closed");
 		driver.quit();
 		
 		Log.endTestCase("ForgetPassword Page");
